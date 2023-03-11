@@ -2,6 +2,13 @@
     "name": "tamodaleko/laravel-quickbooks",
     "description": "Laravel Quickbooks integration",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Jani Cerar",
+            "email": "jani.cerar@lifeonscreen.com",
+            "homepage": "https://lifeonscreen.com"
+        }
+    ],
     "homepage": "https://github.com/tamodaleko/laravel-quickbooks",
     "keywords": ["laravel", "laravel-quickbooks"],
     "require": {
@@ -9,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "TamoDaleko\\LaravelQuickBooks\\": "src/"
+            "LifeOnScreen\\LaravelQuickBooks\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TamoDaleko\\LaravelQuickBooks\\LaravelQuickBooksServiceProvider"
+                "LifeOnScreen\\LaravelQuickBooks\\LaravelQuickBooksServiceProvider"
             ],
             "aliases": {
-                "laravel-quickbooks": "TamoDaleko\\LaravelQuickBooks\\Facades\\LaravelQuickBooks"
+                "laravel-quickbooks": "LifeOnScreen\\LaravelQuickBooks\\Facades\\LaravelQuickBooks"
             }
         }
     }
